@@ -1,0 +1,40 @@
+{
+  "id": "cpr-ru",
+  "title": "Cyberpunk RED Core - Russian Translation",
+  "description": "Community-maintained Russian localization for Cyberpunk RED Core.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.369",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "Cyberpunk RED Core Translation Contributors"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "languages": [
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "cyberpunk-red-core",
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module"
+      }
+    ]
+  }
+}
